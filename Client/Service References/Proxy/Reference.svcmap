@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d4cd1c00-017a-4e45-8c14-a8d1141123a5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceImplementation.wsdl" MetadataType="Wsdl" ID="1d630aba-9c41-4c8c-9b67-9eb9220a9ad0" SourceId="1" SourceUrl="http://localhost:8000/service/mex?wsdl" />
+    <MetadataFile FileName="mex.xsd" MetadataType="Schema" ID="660616a9-a3e9-4024-a61c-1c102eaebc78" SourceId="1" SourceUrl="http://localhost:8000/service/mex?xsd=xsd1" />
+    <MetadataFile FileName="mex1.xsd" MetadataType="Schema" ID="7c33a66e-abcd-4f05-b01c-f8c10806df5a" SourceId="1" SourceUrl="http://localhost:8000/service/mex?xsd=xsd0" />
+    <MetadataFile FileName="mex.disco" MetadataType="Disco" ID="0fc01e9e-6ab9-4fd0-96f3-09d1c514de77" SourceId="1" SourceUrl="http://localhost:8000/service/mex?disco" />
+    <MetadataFile FileName="mex2.xsd" MetadataType="Schema" ID="0c86d185-12f6-4d97-b8d9-2bceaee3a7ed" SourceId="1" SourceUrl="http://localhost:8000/service/mex?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
